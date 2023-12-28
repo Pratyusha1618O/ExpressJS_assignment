@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    size: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(cyan,purple);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 0 15px black;
+    border-radius: 10px;
+    padding: 30px;
+
+    
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 15px;
+    box-shadow: 0 0 10px rgb(218, 237, 190);
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(85, 215, 124);
+    color: white;
+    cursor: pointer;
+}
+
+#number{
+    padding: 15px;
+    font-size: 25px;
+}
